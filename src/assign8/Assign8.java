@@ -51,11 +51,11 @@ public class Assign8 {
          */
     }
 
-    public static double getScore(Fish[] fishes) {
+    public static double getScore(Fish[] fishes, int fishCaught) {
         // In this method, accept an array of Fish objects and calculate their
         // total score, where the score is the sum of all fish weights, times
-        // the sum of all fish lengths, divided by the number of fish.
-        // NOTE: Do not count null array members (eg- uncaught fish.)
+        // the sum of all fish lengths, divided by the number of fish caught.
+        // NOTE: Do not count null array members (eg- uncaught fish.)       
         return 0;
     }
 
